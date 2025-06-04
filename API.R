@@ -3,7 +3,7 @@
 library(plumber)
 
 #* @apiTitle Tranformacion de Datos
-#* @apiDescription Transformacion de los datos (Logaritmica, Normalizacion, Histograma de la variable Duration)
+#* @apiDescription Transformacion de los datos (Logaritmica, Normalizacion, Histograma de la variable Duration). Elige True (T) para visualizar el histograma de la variable Minutes logaritmicamente, y False (F) para la minutes sin tranformar
 #* @param Transformacion (T / F)
 #* @get /Histograma
 
